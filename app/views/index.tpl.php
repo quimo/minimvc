@@ -17,6 +17,7 @@
                     </div>
                 </article>
             <?php endforeach ?>
+            <p><a href="home">Goto Home</a></p>
         </main>
         <footer>
             <?php include __DIR__ . '/parts/footer.tpl.php'; ?>

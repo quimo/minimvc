@@ -8,7 +8,7 @@
             <?php include __DIR__ . '/parts/header.tpl.php'; ?>
         </header>
         <main>
-            WELCOME
+            WELCOME TO HOME
         </main>
         <footer>
             <?php include __DIR__ . '/parts/footer.tpl.php'; ?>
