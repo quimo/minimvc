@@ -8,6 +8,9 @@ require_once __DIR__ . '/../helpers/connection.php';
 require_once __DIR__ . '/../app/controllers/frontController.php';
 require_once __DIR__ . '/../app/controllers/home.php';
 require_once __DIR__ . '/../app/controllers/404.php';
+// models
+require_once __DIR__ . '/../app/models/post.php';
+
 \Helpers\Config::init();
 $config = \Helpers\Config::get();
 $conn = \Helpers\Connection::get($config);

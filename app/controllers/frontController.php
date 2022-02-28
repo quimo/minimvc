@@ -2,6 +2,7 @@
 namespace App\Controllers;
 class FrontController {
     public function display(\PDO $conn = null) {
-        \Helpers\Viewer::getView('index');
+        $data =  \App\Models\Post::getAll($conn);
+        \Helpers\Viewer::getView('index', $data);
     }
 }

@@ -8,11 +8,15 @@
             <?php include __DIR__ . '/parts/header.tpl.php'; ?>
         </header>
         <main>
-            <form method="post">
-                <input type="email" name="email" id="email">
-                <input type="password" name="password" id="password">
-                <input type="submit" name="submit" value="login">
-            </form>
+            <h1>Posts</h1>
+            <?php foreach ($data as $row): ?>
+                <article>
+                    <h2><?php echo $row->title ?></h2>
+                    <div>
+                        <?php echo $row->content ?><
+                    </div>
+                </article>
+            <?php endforeach ?>
         </main>
         <footer>
             <?php include __DIR__ . '/parts/footer.tpl.php'; ?>
