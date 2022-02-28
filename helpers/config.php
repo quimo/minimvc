@@ -1,7 +1,7 @@
 <?php
 namespace Helpers;
 class Config {
-    private static $baseUrl = '/project_folder/public_html/';
+    private static $baseUrl = '/minimvc/public_html/';
     public static function init() {
         ini_set('display_errors', 1);
         ini_set('display_startup_errors', 1);

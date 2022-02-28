@@ -2,4 +2,4 @@
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /project_folder/public_html/index.php?path=$1 [L,QSA]
+RewriteRule ^(.*)$ /minimvc/public_html/index.php?path=$1 [L,QSA]
