@@ -11,4 +11,7 @@ class Config {
     public static function getBaseUrl() {
         return self::$baseUrl;
     }
+    public static function get() {
+        return include_once __DIR__ . '/../config/config.php';
+    }
 }
